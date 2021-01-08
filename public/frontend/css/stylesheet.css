@@ -1,0 +1,1013 @@
+body {
+
+}
+
+span#loginError {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.login-box {
+	width: 91%;
+	height: auto;
+	min-height: 400px;
+	background: #FFDEAE;
+    box-shadow: 0px 4px 4px 0px #0000002b;
+    border-radius: 4px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.login-card {
+	width: 60%;
+	margin-top: 100px;
+	margin-left: 20%;
+}
+.login-card #loginError {
+	margin-left: 30%;
+}
+.input-field {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+.input-field label {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	float: left;
+	margin-left: -100px;
+}
+
+.input-form {
+	height: 40px;
+	width: 100%;
+	border-radius: 4px;
+    border-width: 0px;
+    padding-left: 20px;
+}
+.submit-button {
+	width: 20%;
+	margin-top: 24px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.login-button {
+	height: 40px;
+	width: 100%;
+	border-radius: 4px;
+	border-width: 0px;
+	color: white;
+	background-color: #FF9800;
+	box-shadow: 0px 2px 5px grey;
+}
+
+.help-box {
+	width: 15%;
+	height: 140px;
+	float: right;
+}
+
+.help-box div {
+	width: 100%;
+	height: 80%;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #DE8600;
+	text-align: center;
+}
+.help-box div img {
+	width: 30%;
+	margin-bottom: 10px;
+}
+
+/* Sign Up */
+
+.signup-box {
+	width: 91%;
+	height: auto;
+	min-height: 400px;
+	background: #FFDEAE;
+    box-shadow: 0px 4px 4px 0px #0000002b;
+    border-radius: 4px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.card-body {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.input-field {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+.input-field div {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	float: left;
+	margin-left: -150px;
+}
+.input-field div .br {
+    display: block;
+    margin-bottom: -1em;
+}
+.option {
+	color: rgba(0, 0, 0, 0.5);
+	clear: both;
+}
+
+.input-form {
+	width: 100%;
+	height: 40px;
+	border-radius: 4px;
+	border-width: 0px;
+}
+
+.submit-button {
+	width: 20%;
+	margin-top: 24px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: left;
+}
+.box {
+	width: 91%;
+	height: auto;
+	min-height: 400px;
+    background: #FFDEAE;
+    box-shadow: 0px 4px 4px 0px #0000002b;
+	border-radius: 4px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.box-message {
+    width: 80%;
+    height: auto;
+	margin-top: 100px;
+    margin-left: 10%;
+    text-align: center;
+}
+h2 {
+    color: red;
+    font-weight: bold;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  background-color: white;
+}
+
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 3px;
+	left: 3px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #FF9800;
+}
+
+.sign-button {
+	height: 40px;
+	width: 100%;
+	border-radius: 4px;
+	border-width: 0px;
+	color: white;
+	background-color: #FF9800;
+    box-shadow: 0px 2px 5px grey;
+    font-weight: 700;
+}
+
+.help-box {
+	width: 15%;
+	height: 140px;
+	float: right;
+	margin-top: -11%;
+}
+.help-box img {
+	width: 20%;
+	margin-bottom: 10px;
+}
+.help-box div {
+	width: 50%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #DE8600;
+	text-align: center;
+}
+.help-box div img {
+	width: 60%;
+	margin-bottom: 10px;
+}
+
+
+/* Menu */
+.page_wrapper {
+	max-width: 100%;
+	height: auto;
+	min-height: 750px;
+	background: #FFF6EA;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+    z-index: 999;
+	width: 100%;
+	height: 160px;
+	background: #FFFFFF;
+}
+.logo-field {
+	width: 25%;
+	height: 140px;
+	float: left;
+}
+.logo-field img {
+	width: 38%;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+.nav-bar {
+	width: 45%;
+	height: 115px;
+	float: left;
+	margin-top: 50px;
+}
+.account {
+	width: 30%;
+	height: 115px;
+	float: left;
+}
+.social {
+	width: 100%;
+	height: 50%;
+}
+.social img {
+	float: right;
+	width: 10%;
+	margin-right: 5%;
+}
+.acc {
+    margin-top: 15px;
+	width: 100%;
+	height: 50%;
+}
+.signup-acc {
+	width: 40%;
+	height: auto;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	background: #FF9800;
+	float: right;
+	border-radius: 4px;
+	border-width: 0px;
+	margin-right: 5%;
+}
+.login-acc {
+	width: 35%;
+	height: auto;
+	padding: 10px;
+	color: black;
+	text-align: center;
+	float: left;
+	margin-left: 15%;
+}
+input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+/*!* The container <div> - needed to position the dropdown content *!*/
+.menu.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: 20%;
+}
+.menu.dropdown.name {
+    margin-left: 30px;
+}
+.menu.dropdown.name .dropdown-content {
+    margin-top: -10%;
+    width: fit-content;
+    min-width: 150px;
+}
+
+.menu.dropdown.name a h1 {
+    color: black;
+    font-size: 20px;
+}
+
+.catego {
+    margin-left: 20px;
+    width: 40%;
+    height: auto;
+    color: black;
+    font-size: 30px;
+    font-weight: 10;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    margin-top: -10%;
+    width: 150px;
+    display: none;
+    position: relative;
+    background-color: #ffbc58;
+    z-index: 9999;
+    border-radius: 5px;
+}
+.dropdown-img {
+    width: 150px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.notify {
+    min-width: 20px;
+    float: right;
+    margin-top: -5px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #FF9800;
+    border-radius: 5px;
+}
+
+/* Show the dropdown menu on hover */
+.menu.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ul.menu{
+    text-align: center;
+    height: 70px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4a3d20;
+}
+li.menu {
+    text-align: center;
+    height: 70px;
+    width: 10%;
+    font-weight: bold;
+    float: left;
+    position: relative;
+}
+li.menu.text {
+    padding-top: 10px;
+}
+li.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px 15px 0;
+    text-decoration: none;
+}
+li.menu.logo {
+    width: 275px;
+    height: 70px;
+}
+li.menu img#avatar {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background: #98C3FF;
+    float: left;
+}
+li.menu.avatar {
+    position: absolute;
+    left: 77%;
+    list-style-type: none;
+}
+li.menu.name {
+    position: absolute;
+    left: 79%;
+    max-width: 250px;
+    width: fit-content;
+}
+li.menu a:hover {
+    /* background-color: #0080ff; */
+}
+/* Home's Hot post  */
+.newest-post {
+    overflow: hidden;
+    max-width: 254px;
+}
+#content {
+    padding: 20px 10% 0 10%;
+    width: 98%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#search {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#searchInput {
+    padding-left: 20px;
+    font-size: 20px;
+    min-width: 79%;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px;
+}
+#searchedPosts {
+    width: 80%;
+}
+
+#searchButton {
+    font-weight: bold;
+    font-size: 20px;
+    min-width: 20%;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-color: #FF9800;
+    color: white;
+}
+#searchButton:hover {
+    background-color: #e28700;
+}
+.list-group-item {
+    margin: auto;
+    width: 99%;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px;
+}
+#hotPosts .category-list .category-post {
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+}
+#hotPosts .category-list .category-post a {
+    font-size: 20px;
+    margin-right: 30px;
+}
+#hotPosts .category-list .category-post .content-foot-user a {
+    font-size: 12px;
+}
+.login-page h3 {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#Category {
+    /*margin-left: 50px;*/
+    margin-bottom: 50px;
+}
+#Category {
+    /*width: 80%;*/
+    border:2px solid rgba(0, 0, 0, 0.5);
+    border-top:15px solid rgba(0, 0, 0, 0.5);
+    border-right:15px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+#Category tr {
+    height: 50px;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-bottom: 1px solid grey;
+    border-radius: 4px;
+}
+#Category td {
+    padding-left: 20px;
+    font-size: 18px;
+}
+#Category th {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: large;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: #edf6fdb0;
+    border: 2px solid grey;
+}
+
+#Category a {
+    color: #2577b1;
+}
+
+.tables{ border-collapse:collapse; table-layout:fixed;}
+
+.post-column {
+    max-width: 100px !important;
+}
+
+
+#header {
+    position: sticky;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-top: 5px;
+}
+
+ /*Show profile */
+#datepicker {
+    background-color: white;
+}
+
+.radioGender {
+    margin: 0 10px 0 130px;
+}
+.radioLabel {
+    margin-right: 50px;
+}
+
+.star {
+    color: red;
+}
+
+#datepicker {
+    margin-bottom: 10px;
+}
+
+#endButtonsDiv {
+    text-align: center;
+}
+#endButtonsDiv .info-button {
+    border: 0px;
+    font-weight: 700;
+    color: white;
+}
+
+/* Info */
+.signup-box h2 {
+    width: fit-content;
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-button {
+    float: right;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #FF9800;
+}
+.info-button a {
+    color: white;
+    font-weight: 700;
+}
+
+/*Screen 14: edit profile*/
+.info-box{
+    margin-top: 40px;
+    width: 80%;
+    background: #FFDEAE;
+    box-shadow: 0px 4px 4px 0px #0000002b;
+    border-radius: 4px;
+}
+.info-box .signup-box {
+    box-shadow: 0px 0px 0px 0px;
+}
+.info-box img {
+       width: 250px;
+       height: 250px;
+       background-size: cover;
+       background-position: top center;
+       border-radius: 50%;
+       overflow: hidden;
+       display: block;
+       margin-top: 100px;
+       margin-left: auto;
+       margin-right: auto;
+       border: 1px solid #EDAA00;
+        background: #98C3FF;
+}
+
+div#info-avatar-box{
+    width: 39%;
+    margin-left: 0;
+    margin-right: initial;
+    float:left;
+    height:800px;
+    position: relative;
+    border-radius: 4px;
+}
+
+div#profile-box {
+    width: 60%;
+    float: right;
+    margin-left:initial;
+    margin-right: 0;
+    position: relative;
+    min-height: 800px;
+    border-radius: 4px;
+}
+
+div#info-sex {
+    margin-top: 10px;
+    margin-left: 50%;
+}
+
+div#info-add-avatar .form-control {
+    height: 45px;
+}
+
+/* Custom profile - end*/
+
+/* Screen 4: home page */
+section#advertisement {
+    width: 100%;
+    max-height: 550px;
+    background-color: pink;
+}
+section#advertisement img {
+    max-height: 500px;
+}
+.advertisement-link a{
+    color: white;
+}
+
+.newest-post {
+    min-width: 250px;
+}
+.newest-post p.post-created-at {
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* Screen 18: Post create */
+.post-crt-body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post-crt-body h1 {
+    font-size: 30px;
+    margin-top: 1.5em;
+}
+.post-option {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.post-option .option {
+    height: 50px;
+}
+.option label {
+    margin-top: 10px;
+    color: black;
+}
+.post-option .input-form {
+    width: 80%;
+    float: right;
+}
+.post-submit {
+    margin-top: -100px;
+    width: 50%;
+    float: right;
+}
+.post-button {
+    height: 40px;
+    width: 25%;
+    margin-left: 25%;
+	border-radius: 4px;
+	border-width: 0px;
+	color: white;
+	background-color: #FF9800;
+	box-shadow: 0px 2px 5px grey;
+}
+.post-content {
+    background-color: #FF9800;
+}
+
+/* Screen08 pet category */
+.category-body {
+    width: 80%;
+    margin-top: 30px;
+}
+.category-body h1 {
+    margin-top: 1em;
+    margin-bottom: 10px;
+    width: 500px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.category-list {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin: 30px 0 30px 0;
+}
+.category-post {
+    height: 220px;
+    /*overflow: hidden;*/
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 20px;
+    box-shadow: 0px 4px 4px 0px #0000002b;
+    border-radius: 4px;
+}
+.category-post a {
+    color: black;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.category-post .content {
+    height: 100px;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.content p {
+    color: #808080;
+}
+.content-foot {
+    position: relative;
+    min-width: 100%;
+}
+.content-foot div {
+    margin-left: 25px;
+    display: block;
+    float: left;
+}
+.content-foot-user {
+    float: left;
+    margin-left: 65% !important;
+    font-size: 12px;
+    margin-top: -3px;
+}
+.content-foot-user a {
+    margin: 0;
+    color: #FF9800;
+    font-weight: bold;
+    font-size: 12px;
+}
+.content-foot i {
+    color: #FF9800;
+}
+.request-post {
+    width: 60%;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px #0000002b;
+}
+.request-post a {
+    font-size: 18px;
+    color: rgb(39, 39, 39);
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+/*Screen 13: show post*/
+.post-sw-body {
+    width: 80%;
+}
+.author {
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: -10px;
+    clear: both;
+}
+.author .avatar {
+    float: left;
+    border-radius: 4px;
+}
+.author .text-muted {
+    margin-left: 15px;
+}
+.author a {
+    margin-left: 15px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+#showPostContent {
+    width: 100%;
+    font-size: 16px;
+}
+#showPostContent p img {
+    width: auto;
+    max-width: 800px;
+    max-height: 800px;
+}
+#showPost {
+    word-wrap: break-word;
+}
+#showPostTitle {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.fa.fa-thumbs-up {
+    width: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+}
+.user-name {
+    display: block;
+}
+
+footer {
+    border-top: 2px solid darkgrey;
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 20px;
+    min-height: 50px;
+}
+/* Login */
+button#loginButton {
+    opacity: 0.9;
+}
+
+/* Screen 20: User info addition */
+
+#user-cardbody {
+    width: 95%;
+}
+
+#user-cardbody .signup-box {
+    background-color: #FF9800;
+    height: 500px;
+}
+
+#user-avatar-box {
+    width: 60%;
+}
+
+#user-avatar-box img {
+    margin-top: 100px;
+    border: 8px solid #FFFFFF;
+    width: 200px;
+    height: 200px;
+}
+
+#user-profile-box {
+    color: #000000;
+    font-size: 19px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#user-profile-box h2{
+    color: #000000;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+#user-profile-box .input-field {
+    margin-left:77px;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+.white-box {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    border-radius: 4px;
+    font-size: 22px;
+    position: relative;
+}
+
+#user-status {
+    width: 60%;
+    min-height: 400px;
+}
+
+#user-status .input-field{
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top:0px;
+    width: 100%;
+
+}
+
+.input-field#status-tittle{
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-top:0px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.comment-text img{
+    border-radius: 50%;
+}
+
+/*Editor */
+
+.editor
+{
+    border:solid 1px #ccc;
+    padding: 20px;
+    min-height:200px;
+}
+#sampleEditor {
+    min-height:200px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: white;
+}
+.sample-toolbar
+{
+    border:solid 1px #ddd;
+    background:#f4f4f4;
+    padding: 5px;
+    border-radius:3px;
+}
+
+.sample-toolbar > span
+{
+    cursor:pointer;
+}
+
+.sample-toolbar > span:hover
+{
+    text-decoration:underline;
+}
