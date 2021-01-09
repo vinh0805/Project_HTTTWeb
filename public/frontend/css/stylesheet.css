@@ -1011,3 +1011,20 @@ button#loginButton {
 {
     text-decoration:underline;
 }
+
+.editor-button {
+    margin: 5px 0 5px 5px;
+    display: inline-block;
+    min-width: 25px;
+    min-height: 25px;
+    text-align: center;
+    border: 1px solid #f4f4f4;
+}
+.editor-button:hover {
+    background-color: #d4f4f4;
+}
+.editor-button.clicked {
+    background-color: white;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+}
