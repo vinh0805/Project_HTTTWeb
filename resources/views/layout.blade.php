@@ -186,6 +186,80 @@
             $("#postContent").val($("#sampleEditor").html());
         });
 
+        $(".editor-button").click(function (){
+            if($(this).attr('id') === 'subScript' || $(this).attr('id') === 'superScript') {
+                if($(this).attr('class') === "editor-button") {
+                    $(this).attr('class', 'editor-button clicked');
+                }
+            } else if ($(this).attr('id') === 'insertOrderedlist' || $(this).attr('id') === 'insertUnorderedlist') {
+                if($(this).attr('id') === 'insertOrderedlist') {
+                    if($(this).attr('class') === 'editor-button') {
+                        $(this).attr('class', 'editor-button clicked');
+                        $("#insertUnorderedlist").attr('class', 'editor-button');
+                    } else {
+                        $(this).attr('class', 'editor-button');
+                    }
+                } else {
+                    if($(this).attr('class') === 'editor-button') {
+                        $(this).attr('class', 'editor-button clicked');
+                        $("#insertOrderedlist").attr('class', 'editor-button');
+                    } else {
+                        $(this).attr('class', 'editor-button');
+                    }
+                }
+            } else if($(this).attr('id') === 'undo') {
+                // Do nothing
+            } else if($(this).attr('id') === 'justifyLeft') {
+                if($(this).attr('class') === 'editor-button') {
+                    $("#justifyLeft").attr('class', 'editor-button clicked');
+                    $("#justifyCenter").attr('class', 'editor-button')
+                    $("#justifyRight").attr('class', 'editor-button')
+                    $("#justifyFull").attr('class', 'editor-button')
+                }
+            } else if($(this).attr('id') === 'justifyRight') {
+                if($(this).attr('class') === 'editor-button') {
+                    $("#justifyRight").attr('class', 'editor-button clicked');
+                    $("#justifyCenter").attr('class', 'editor-button')
+                    $("#justifyLeft").attr('class', 'editor-button')
+                    $("#justifyFull").attr('class', 'editor-button')
+                }
+            } else if($(this).attr('id') === 'justifyCenter') {
+                if($(this).attr('class') === 'editor-button') {
+                    $("#justifyCenter").attr('class', 'editor-button clicked');
+                    $("#justifyLeft").attr('class', 'editor-button')
+                    $("#justifyRight").attr('class', 'editor-button')
+                    $("#justifyFull").attr('class', 'editor-button')
+                }
+            } else if($(this).attr('id') === 'justifyFull') {
+                if($(this).attr('class') === 'editor-button') {
+                    $("#justifyFull").attr('class', 'editor-button clicked');
+                    $("#justifyCenter").attr('class', 'editor-button')
+                    $("#justifyRight").attr('class', 'editor-button')
+                    $("#justifyLeft").attr('class', 'editor-button')
+                }
+            } else {
+                if($(this).attr('class') === "editor-button") {
+                    $(this).attr('class', 'editor-button clicked');
+                } else if ($(this).attr('class') === "editor-button clicked") {
+                    $(this).attr('class', 'editor-button');
+                }
+            }
+        });
+
+        $("#subScript").dblclick(function (){
+            $(this).attr('class', 'editor-button');
+        });
+
+        $("#superScript").dblclick(function (){
+            $(this).attr('class', 'editor-button');
+        });
+
+        if(instanceOfKeyboardEvent.ctrlKey) {
+            if($().key === 'b') {
+                $("#bold").click();
+            }
+        };
+
         $("#changePasswordForm").validate({
             rules: {
                 password: "required",
