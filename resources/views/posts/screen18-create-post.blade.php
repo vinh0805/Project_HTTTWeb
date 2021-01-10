@@ -115,6 +115,27 @@
 {{--                    </div>--}}
 {{--                </a>--}}
 
+                <a href="javascript:void(0)">
+                    <div class="editor-button a">
+                        <select name="fontSize" id="fontSize" onchange="changeFont(this.value)">
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="14">14</option>
+                            <option value="16">16</option>
+                            <option value="18">18</option>
+                            <option value="20">20</option>
+                            <option value="24">24</option>
+                            <option value="28">28</option>
+                            <option value="32">32</option>
+                            <option value="36">36</option>
+                            <option value="48">48</option>
+                            <option value="72">72</option>
+                        </select>
+                    </div>
+                </a>
                 <a href="javascript:void(0)" onclick="setUrl()">
                     <div class="editor-button">
                         <span class="fa fa-link fa-fw"></span>
@@ -153,6 +174,21 @@
         document.getElementById('txtFormatUrl').value = '';
     }
 
+    function execFontSize(size) {
+        alert(size);
+        var spanString = $('<span/>', {
+            'text': document.getSelection()
+        }).css('font-size', size + 'px').prop('outerHTML');
+
+        document.execCommand('insertHTML', false, spanString);
+    }
+
+    function changeFont(size) {
+        document.execCommand("fontSize", false, "7");
+        var fontElements = window.getSelection().anchorNode.parentNode;
+        fontElements.removeAttribute("size");
+        fontElements.style.fontSize = size + 'px';
+    }
 </script>
 
 @endsection
