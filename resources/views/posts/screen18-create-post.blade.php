@@ -136,6 +136,19 @@
                         </select>
                     </div>
                 </a>
+                <select onchange="execFontStyle(this[this.selectedIndex].value)">
+                    <option value="Arial">Arial</option>
+                    <option value="Calibri">Calibri</option>
+                    <option value="Comic Sans MS">Comic Sans MS</option>
+                    <option value="Verdana">Verdana</option>
+                    <option value="Tahoma">Tahoma</option>
+                    <option value="Trebuchet MS">Trebuchet MS</option>
+                    <option value="Time New Roman">Time New Roman</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Garamond">Garamond</option>
+                    <option value="Courier New">Courier New</option>
+                    <option value="Brush Script MT">Brush Script MT</option>
+                </select>
                 <a href="javascript:void(0)" onclick="setUrl()">
                     <div class="editor-button">
                         <span class="fa fa-link fa-fw"></span>
@@ -184,10 +197,16 @@
     }
 
     function changeFont(size) {
-        document.execCommand("fontSize", false, "7");
+        document.execCommand("fontSize", false, "4");
         var fontElements = window.getSelection().anchorNode.parentNode;
+        console.log(fontElements);
+        console.log(window.getSelection());
         fontElements.removeAttribute("size");
         fontElements.style.fontSize = size + 'px';
+    }
+
+    function execFontStyle(fontStyle) {
+        document.execCommand("fontName", false, fontStyle);
     }
 </script>
 
